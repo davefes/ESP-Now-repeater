@@ -57,7 +57,6 @@ try:
     print ('you have 5 seconds to do Ctrl-C if you want to edit the program')
     utime.sleep(5)
 
-    wdt.init(timeout=CYCLE_TIME + 10)
     w0 = network.WLAN(network.STA_IF)
   # print (w0.config('mac'))
     e0 = espnow.ESPNow()

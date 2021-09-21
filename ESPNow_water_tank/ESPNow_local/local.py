@@ -58,7 +58,6 @@ try:
     utime.sleep(5)
 
     led_pin = Pin(LED_PIN, Pin.OUT) #  LED drive pin
-    wdt.init(timeout = CYCLE_TIME + 10)
     w0 = network.WLAN(network.STA_IF)
 #    print (w0.config('mac'))
     e0 = espnow.ESPNow()

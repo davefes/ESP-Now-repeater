@@ -57,7 +57,7 @@ try:
     utime.sleep(5)
 
     pin = Pin(WATER_LEVEL_PIN, Pin.IN, Pin.PULL_UP) #  water level sensor
-    wdt.init(timeout = CYCLE_TIME + 10)
+
     w0 = network.WLAN(network.STA_IF)
 #    print (w0.config('mac'))
     e0 = espnow.ESPNow()

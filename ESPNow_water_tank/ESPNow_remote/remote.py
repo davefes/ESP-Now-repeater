@@ -90,9 +90,10 @@ try:
         retval = e0.send(repeater_mac, water_status, True)
         w0.active(False)
 
-        if (retval != True):
-            print ('send did NOT work')
-            reboot()
+     # for testing from remote end
+#       if (retval != True):
+#            print ('send did NOT work')
+#            reboot()
 
         machine.lightsleep(CYCLE_TIME * 1000)
 except KeyboardInterrupt as err:

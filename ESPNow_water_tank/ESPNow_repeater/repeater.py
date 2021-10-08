@@ -35,7 +35,7 @@ import watchdog_timer as wdt
 #from machine import WDT
 
 
-CYCLE_TIME = 60                 #  seconds
+CYCLE_TIME = 65                 #  seconds
 REBOOT_DELAY = 5                #  seconds
 local = b'\x08:\xf2\xacj\xe4'
 remote = b'\x8c\xaa\xb5\x8b\x90X'

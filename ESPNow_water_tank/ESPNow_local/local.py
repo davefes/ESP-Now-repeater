@@ -36,7 +36,7 @@ import watchdog_timer as wdt
 #from machine import WDT
 
 
-CYCLE_TIME = 60             # seconds
+CYCLE_TIME = 70             # seconds
 REBOOT_DELAY = 5            # seconds
 LED_PIN = 27
 repeater_mac = b'\x08:\xf2\xab^\x04'

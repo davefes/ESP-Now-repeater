@@ -29,7 +29,11 @@ Notes:
   of the device can be determined
 - the wdt_feed(), if used, needs to go in the for loop on the
   repeater and the local
-
+- subsequent testing indicates that using the same CYCLE_TIME 
+  for all three units is probably not the most reliable approach.
+  Testing continues with 60 seconds for the remote, 65 seconds
+  for the repeater and 70 seconds for the local.
+  
 Best place to get help would be on the Micropython forum:
 https://forum.micropython.org/viewtopic.php?f=18&t=9177
 

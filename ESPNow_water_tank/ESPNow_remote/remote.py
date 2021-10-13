@@ -95,6 +95,7 @@ try:
 #            print ('send did NOT work')
 #            reboot()
 
+#        wdt.feed()
         machine.lightsleep(CYCLE_TIME * 1000)
 except KeyboardInterrupt as err:
     raise err #  use Ctrl-C to exit to micropython repl

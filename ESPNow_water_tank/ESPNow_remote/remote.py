@@ -97,6 +97,7 @@ try:
 
 #        wdt.feed()
         machine.lightsleep(CYCLE_TIME * 1000)
+#        wdt.feed()         
 except KeyboardInterrupt as err:
     raise err #  use Ctrl-C to exit to micropython repl
 except Exception as err:

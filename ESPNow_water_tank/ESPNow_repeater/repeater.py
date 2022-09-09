@@ -64,7 +64,7 @@ try:
 
  #  these functions generate exceptions on error - always return None
     e0.init()
- #  so that we wake up and reset the wdt before it times out
+ #  so that we timeout before the wdt needs resetting
     e0.config(timeout = CYCLE_TIME * 1000)
     e0.add_peer(local)
 except KeyboardInterrupt as err:
